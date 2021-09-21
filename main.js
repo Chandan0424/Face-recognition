@@ -12,5 +12,5 @@ Webcam.attach('#camera');
 function click(){
     Webcam.snap(function(img){
         document.getElementById("result").innerHTML='<img id="captured" src="'+img+'">';
-    })
+    });
 }
